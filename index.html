@@ -39,7 +39,7 @@
 
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://chromebook.linuxstart.ca/" allowfullscreen></iframe>
 
-<h3>The browser is made by RammerHead and using PlingifyPlug site to make it easyer to find. All credit to RammerHead. This site will become activation key locked soon so please contact the owner to get a code.</h3>
+<h3>The browser is made by RammerHead and using PlingifyPlug site to make it easyer to find. All credit to RammerHead and Gone-404 Editions of CloudFlare-RammerHead-Org. This site will become activation key locked soon so please contact the owner to get a code.</h3>
 </div>
 <center> <h4 style="color: #fff;"> The website which RammerHead is on is brought to you by PlingifyPlug</h4> </center>
 
@@ -73,6 +73,27 @@
 </font>  </div>
 
 
+
+<script>
+  // Function to detect if the user is on a mobile device
+  function isMobile() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+
+  // Function to redirect if the user is on a mobile device
+  function redirectToMobileWebsite() {
+      const mobileURL = "https://plingifyplug.github.io/Banned-Mobile/"; // Replace with the URL of the mobile website
+
+      // Check if the user is on a mobile device
+      if (isMobile()) {
+          // Redirect to the mobile website
+          window.location.replace(mobileURL);
+      }
+  }
+
+  // Call the redirect function when the page loads
+  redirectToMobileWebsite();
+</script>
 
 <script>
     // Function to check if the user has visited before
